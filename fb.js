@@ -125,7 +125,6 @@ $(document).ready(function(){
 
   var genSource = function(){
     var $temptxt = $("<div>").html($("#build").html());
-    //scrubbbbbbb
     $($temptxt).find(".component").attr({"title": null,
       "data-original-title":null,
       "data-type": null,
