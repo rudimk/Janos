@@ -138,6 +138,7 @@ $(document).ready(function(){
     $("#source").val($temptxt.html().replace(/\n\ \ \ \ \ \ \ \ \ \ \ \ /g,"\n"));
   }
 
+ 
   //activate legend popover
   $("#target .component").popover({trigger: "manual"});
   //popover on click event
